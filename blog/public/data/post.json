@@ -1,0 +1,175 @@
+{
+    "item": 
+    [
+        {
+            "id":1,
+            "image_path": "img/test.png",
+             "title": "공동구매 진행하실분", 
+             "host_id":" ckdanr98",
+             "price":2000
+        },
+
+        { 
+            "id":2,
+            "image_path":"img/test.png",
+            "title": "물건 같이 사실분 구합니다",
+            "host_id": "ccl678910",
+            "price":2000
+        },
+          
+        {
+
+         "id":3,
+         "image_path":"img/test.png",
+         "title": "공구급구!!",
+         "host_id": "loki99",
+         "price":2000
+        },
+        {
+
+            "id":4453,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":2222,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":473,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":55,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":73,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":10,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":9,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":8,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":7,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":6,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":5,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":4,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":24,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":11,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":44,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":78,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+
+        },
+        {
+
+            "id":45,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":12,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        }
+
+    ]
+}

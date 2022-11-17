@@ -1,0 +1,72 @@
+.검색버튼 {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.logo {
+    width: 219px;
+    height: 99px;
+    margin-left: 480px;
+    margin-top: 20px;
+
+  }
+.Icons{
+    display : inline-flex
+}
+.login{
+    width: 38px;
+    height: 40px;
+    margin-left: 332px;
+    left: 1160px;
+    margin-top: 10px;
+}
+.perm{
+    width: 38px;
+    height: 40px;
+    
+    margin-left: 11px;
+    margin-top: 10px;
+    
+}
+.shoppingcart{
+    width: 38px;
+    height: 40px;
+    
+    margin-left: 11px;
+    margin-top: 10px;
+    margin-right:142px;
+    
+}
+.searchbar{
+    display : inline-flex;
+    border: 1px;
+    width: 100%;
+    height: 50px;
+    margin-top: 26px;
+    background-color:#86C7F5;
+    font-size: 29px;
+}
+.list{
+    width: 70px;
+    height: 35px;
+    margin-top: 5px;
+}
+.검색창{
+    margin-top: 8px;
+    width: 779px;
+    height: 29px;
+}
+.search{
+    width: 44px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+.글씨{
+    font-size: 20px;
+    margin-top: 10px;
+    
+}
