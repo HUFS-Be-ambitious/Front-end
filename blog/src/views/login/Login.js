@@ -9,39 +9,42 @@ import Container from '@mui/material/Container';
 
 import axios from 'axios'
 import { useState } from 'react'
+
 //import Link from 'react-router-dom'
 
 
 const Login = () => {
-  const [userEmail, setUserEmail] = useState('');
+  const [userId, setUserId] = useState('');
   const [password, setPassWord] = useState('');
 
-  const onChangeEmail = (e) => {
-    setUserEmail(e.target.value)
+
+  const onChangeId = (e) => {
+    setUserId(e.target.value)
   }
 
   const onChangePwd = (e) => {
     setPassWord(e.target.value)
   }
 
-  const login = () => {
-    const info=
-    {
-      userEmail,
-      password
-    }
-      const getToken = async ()=>{
-        try{
-          let response = await axios.post(' http://192.168.25.19:8080/member/login',JSON.stringify(info))
-          sessionStorage.setItem('token',response.headers.authorization)
-          console.log(response.headers.authorization)
-        }
-        catch (e){
-          console.log(e)
-        }
+  const login = (e) => {
+    axios.post('/member/login', null, {
+      params : {
+        'userId' : userId,
+        'userPw': password
+      }
+    })
+    .then(res => {
+      if(res.data.userId === undefined){
+        alert('입력하신 id 가 일치하지 않습니다.')
+      } else if(res.data.userId === null) {
+        alert('입력하신 비밀번호가 일치하지 않습니다.')
+      } else if(res.data.userId === userId){
+        sessionStorage.setItem('userId', userId)
       }
 
-    getToken()
+      document.location.href = '/'
+    })
+    .catch()
   }
 
   return (
@@ -61,11 +64,11 @@ const Login = () => {
         <Grid item xs>
       <TextField 
         type = "text"
-        value={userEmail}
-        onChange = {onChangeEmail}
-        label = "Email Address" 
-        name = "email" 
-        autoComplete="email" 
+        value={userId}
+        onChange = {onChangeId}
+        label = "Id" 
+        name = "userId" 
+        autoComplete="userId" 
         autoFocus margin = "normal" 
         required
         fullWidth
