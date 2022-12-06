@@ -6,7 +6,7 @@ export default function Maindueitem(){
     const getPointlist= async()=>{
         const json = await(
             await fetch(
-                "http://localhost:3000/data/dueitem.json"
+                "http://localhost:8080/data/dueitem.json"
             
         )).json();
         setPointList(json.item);

@@ -6,7 +6,7 @@ export default function Mainitem(){
     const getPointlist= async()=>{
         const json = await(
             await fetch(
-                "http://localhost:3000/data/mainitem.json"
+                "http://localhost:8080/data/mainitem.json"
             
         )).json();
         setPointList(json.item);

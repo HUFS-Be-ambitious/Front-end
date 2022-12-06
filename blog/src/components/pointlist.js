@@ -6,7 +6,7 @@ export default function Pointlist(){
     const getPointlist= async()=>{
         const json = await(
             await fetch(
-                "http://localhost:3000/data/pointlist.json"
+                "http://localhost:8080/data/pointlist.json"
             
         )).json();
         setPointList(json.item);

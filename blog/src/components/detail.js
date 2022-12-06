@@ -7,7 +7,7 @@ function Detail(){
     const getPost= async()=>{
         const data = await(
             await fetch(
-                "http://localhost:3000/data/postdetail.json"
+                "http://43.200.162.100/itempost/view/{id}"
             
         )).json();
         setPost(data.item.find((Post)=>Post.id==id));

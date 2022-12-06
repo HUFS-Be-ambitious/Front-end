@@ -8,10 +8,10 @@ function Delivery(){
     const getbuylist= async()=>{
         const json = await(
             await fetch(
-                "http://43.200.162.100/deliverypost/list"
+                "http://localhost:8080/data/deliverypost.json"
             
         )).json();
-        setBuyList(json.content);
+        setBuyList(json.item);
     };
     useEffect(()=>{
         getbuylist();

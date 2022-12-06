@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from "../components/navigation";
 import Ad from "../components/advertisement";
 import { useState } from 'react'
+import axios from 'axios'
 
 
 function Buypost(){
@@ -66,7 +67,10 @@ function Buypost(){
             "point" : point,
         }
         console.log(data)
-        formData.append("writeDto", JSON.stringify(data));
+        // formData.append("writeDto", JSON.stringify(data));
+        const json = JSON.stringify(data);
+        const blob = new Blob([json], { type: "application/json" });
+        formData.append("writeDto", blob);
         formData.append("file", file);
         for (var key of formData.keys()) {
 
@@ -79,15 +83,19 @@ function Buypost(){
             console.log(value);
           
           }
-        fetch("http://43.200.162.100/itempost/write", {
-            method: "POST",
+          axios.post('http://43.200.162.100/itempost/write'
+        , formData
+        , {
             headers: {
-                "content-type": "multipart/form-data"
-              },
-            body: formData,
-    }) .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
+                "Contest-Type": "multipart/form-data"
+            }
+        }
+    ).then(res => {
+        console.log(res);
+    }).catch(err => {
+        alert('등록을 실패하였습니다.');
+    });
+          
     }
     return(
         <div>
