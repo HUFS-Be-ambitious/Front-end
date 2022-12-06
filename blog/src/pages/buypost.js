@@ -15,13 +15,13 @@ function Buypost(){
     const [content, setContent] = useState('');
     const [point, setPoint] = useState('');
     const [name, setName] = useState('');
-    const [file, setFile] = useState('');
+    const [file, setFile] = useState();
 
     const onchangecategory = (e) => {
         setCategory(e.target.value)
       }
       const onchangefile = (e) => {
-        setFile(e.target.value)
+        setFile(e.target.files[0])
       }
       const onchangename = (e) => {
         setName(e.target.value)
@@ -51,33 +51,44 @@ function Buypost(){
         setTime(e.target.value)
       }
       const onSubmitHandler=()=>{
+        let formData = new FormData();
+        
         let data={
-            title : title,
-            item_name : name,
-            itemCategory : category,
-            price : price,
-            delivery_fee : delivery_fee,
-            endTime : time,
-            done_num : done_num,
-            location : location,
-            content : content,
-            point : point,
-            file : file
+            "title" : title,
+            "item_name" : name,
+            "itemCategory" : category,
+            "price" : price,
+            "delivery_fee" : delivery_fee,
+            "endTime" : time,
+            "done_num" : done_num,
+            "location" : location,
+            "content" : content,
+            "point" : point,
         }
+        console.log(data)
+        formData.append("writeDto", JSON.stringify(data));
+        formData.append("file", file);
+        for (var key of formData.keys()) {
+
+            console.log(key);
+          
+          }
+          
+          for (var value of formData.values()) {
+          
+            console.log(value);
+          
+          }
         fetch("http://43.200.162.100/itempost/write", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(data),
-    }).then((response) => console.log(response));
-
-
-
+                "content-type": "multipart/form-data"
+              },
+            body: formData,
+    }) .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
     }
-
-      
-
     return(
         <div>
             <Navigation></Navigation>
