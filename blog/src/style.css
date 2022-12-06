@@ -1,0 +1,239 @@
+a {
+    text-decoration-line: none;
+    color: inherit;
+}
+.category ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 12px;
+}
+.category ul li{
+    margin-left: 30px;
+    font-size:20px;
+}
+.loginform{
+    display : inline-flex
+}
+.테두리{
+    width: 1005px;
+    height: 830px;
+    border: 1px solid;
+    margin-left:59px;
+}
+.idinput{
+    margin-left: 104px;
+    margin-top: 92px;
+    width: 402px;
+    height: 72px;
+}
+.passwardinput{
+    margin-left: 104px;
+    margin-top: 46px;
+    width: 402px;
+    height: 72px;
+}
+.loginbutton{
+    width: 232px;
+    height: 198px;
+    margin-top: 90px;
+    margin-left: 65px;
+    background-color: #86C7F5;
+}
+.listcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.itemcontainer{
+    width:263px;
+    margin:14px;
+}
+.itemcontainer img{
+    width: 274px;
+    height: 174px;
+}
+
+.buytitle{
+    display: flex;
+    border: 1px solid;
+    width: 1178px;
+    height: 50px;
+}
+.buy_bottom{
+    display: flex;
+    width: 1178px;
+    height: 50px;
+    color: #86C7F5;
+
+}
+.postbutton{
+    display: flex;
+    width: 500px;
+    margin-left: 550px;
+    font-size:20px;
+    height: 30px;
+    color: #86C7F5;
+}
+.postbutton div{
+    height: 30px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.postbutton img{
+    height: 50px;
+    margin-left: 20px;
+}
+.buyword{
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size:20px;
+}
+.maintitle{
+    width: 1178px;
+    height: 40px;
+}
+.mainword{
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size:20px;
+}
+.pointtitle{
+    width: 1178px;
+    height: 30px;
+    
+}
+.pointword{
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size:20px;
+}
+.premium{
+    display : inline-flex
+}
+.itemposter{
+    display:flex;
+    padding: 30px;
+}
+.itemposter img{
+    width:500px;
+    height: 450px;
+    margin: 30px;
+    margin-left: 10px;
+}
+.postertext{
+    width: 550px;
+    height: 450px;
+    font-size: 18px;
+    margin:30px;
+    margin-left: 50px;
+    
+}
+.endbutton{
+    background-color: #86C7F5;
+    width: 550px;
+    height: 50px;
+}
+.postcontent{
+    border: 1px solid;
+    width: 1178px;
+    height: 200px;
+
+}
+.postcomment{
+    border: 1px solid;
+
+}
+.CommentInsert{
+    width: 1100px;
+    height: 30px;
+}
+.commenttitle{
+    font-size: large;
+}
+.postform{
+    width: 880px;
+    height:650px;
+    border: 1px solid;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.post{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.글올리기{
+    font-size: 20px;
+    margin:20px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.post input{
+    margin-left: 20px;
+}
+.post select{
+    margin-left: 20px;
+}
+
+
+.postword{
+    font-size: 20px;
+
+}
+.titleinput{
+    width:689px;
+    height: 18px;
+}
+.priceinput{
+    width: 200px;
+    height: 18px;
+}
+.locationinput{
+    height: 18px;
+    width: 200px;
+}
+.contentinput{
+    width: 689px;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+
+}
+.post_button{
+    width: 60px;
+    height: 40px;
+    margin-left: 740px;
+    margin-top: 0px;
+}
+.post_button button{
+    color: red;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0);
+}
+.filepost{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.myitemcontainer{
+    display: flex;
+}
+.myitemtitle{
+    width: 480px;
+}
+.myitemnum{
+    width:480px;
+}
+.buyinfotitle{
+    width: 1180px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.blueBtn{
+    background-color: #86C7F5;
+}
+#modalCloseBtn{
+    background-color: #86C7F5;
+}

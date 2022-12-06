@@ -1,0 +1,37 @@
+{
+    "item": 
+    [
+        {
+
+            "id":55,
+            "image_path":"/img/test12.jpg",
+            "title": "말랑말랑 크록샌들[남녀공용]",
+            "host_id": "loki99",
+            "price":10000
+        },
+        {
+
+            "id":73,
+            "image_path":"/img/test13.jpg",
+            "title": "동원 참치 같이 구매하실분",
+            "host_id": "loki99",
+            "price":19200
+        },
+        {
+
+            "id":10,
+            "image_path":"/img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":9,
+            "image_path":"/img/test11.jpg",
+            "title": "[마리끌레르] 남성 화장품 올인원 200ml 1+1",
+            "host_id": "loki99",
+            "price":20000
+        }
+    ]
+}

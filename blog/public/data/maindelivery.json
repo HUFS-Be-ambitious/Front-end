@@ -1,0 +1,38 @@
+{
+    "item": 
+    [
+        {
+
+            "id":10016,
+            "image_path":"/img/test5.jpg",
+            "title": "초밥 같이 시킬사람!!",
+            "host_id": "loki99",
+            "price":60000
+        },
+        {
+
+            "id":10017,
+            "image_path":"/img/test2.jpg",
+            "title": "같이 짜장면 시킬 사람 있나요?",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":10018,
+            "image_path":"/img/test3.jpg",
+            "title": "돈까스 시킬사람!",
+            "host_id": "loki99",
+            "price":2000
+
+        },
+        {
+
+            "id":10019,
+            "image_path":"/img/test1.jpg",
+            "title": "같이 햄버거 먹자!!",
+            "host_id": "loki99",
+            "price":2000
+        }
+    ]
+}

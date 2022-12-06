@@ -1,0 +1,37 @@
+{
+    "item": 
+    [
+        {
+
+            "id":8,
+            "image_path":"/img/test7.png",
+            "title": "넷플릭스 3명구해요",
+            "host_id": "loki99",
+            "price":11000
+        },
+        {
+
+            "id":7,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":6,
+            "image_path":"/img/test14.jpg",
+            "title": "[1+1] 투캣츠 티셔츠",
+            "host_id": "loki99",
+            "price":2000
+        },
+        {
+
+            "id":5,
+            "image_path":"img/test.png",
+            "title": "공구급구!!",
+            "host_id": "loki99",
+            "price":2000
+        }
+    ]
+}

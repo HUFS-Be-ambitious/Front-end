@@ -3,72 +3,72 @@
     [
         {
             "id":1,
-            "image_path": "img/test.png",
-             "title": "공동구매 진행하실분", 
+            "image_path": "/img/test7.png",
+             "title": "넷플릭스 같이 결제하실분 4명 구해요", 
              "host_id":" ckdanr98",
-             "price":2000
+             "price":11000
         },
 
         { 
             "id":2,
-            "image_path":"img/test.png",
-            "title": "물건 같이 사실분 구합니다",
+            "image_path":"/img/test8.jpg",
+            "title": "돼지고기 뒷다리살 같이 구매하실분 찾습니다",
             "host_id": "ccl678910",
-            "price":2000
+            "price":16600
         },
           
         {
 
          "id":3,
-         "image_path":"img/test.png",
-         "title": "공구급구!!",
+         "image_path":"/img/test9.jpg",
+         "title": "남성 100데니아 기모본딩 기본팬츠 3종세트",
          "host_id": "loki99",
-         "price":2000
+         "price":35900
         },
         {
 
             "id":4453,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test10.jpg",
+            "title": "따뜻한 심플 기모 밴드 바지",
             "host_id": "loki99",
-            "price":2000
+            "price":24900
         },
         {
 
             "id":2222,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test11.jpg",
+            "title": "[마리끌레르] 남성 화장품 올인원 200ml 1+1",
             "host_id": "loki99",
-            "price":2000
+            "price":20000
         },
         {
 
             "id":473,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test7.png",
+            "title": "넷플릭스 4명구해요",
             "host_id": "loki99",
-            "price":2000
+            "price":11000
         },
         {
 
             "id":55,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test12.jpg",
+            "title": "말랑말랑 크록샌들[남녀공용]",
             "host_id": "loki99",
-            "price":2000
+            "price":10000
         },
         {
 
             "id":73,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test13.jpg",
+            "title": "동원 참치 같이 구매하실분",
             "host_id": "loki99",
-            "price":2000
+            "price":19200
         },
         {
 
             "id":10,
-            "image_path":"img/test.png",
+            "image_path":"/img/test.png",
             "title": "공구급구!!",
             "host_id": "loki99",
             "price":2000
@@ -76,18 +76,18 @@
         {
 
             "id":9,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test11.jpg",
+            "title": "[마리끌레르] 남성 화장품 올인원 200ml 1+1",
             "host_id": "loki99",
-            "price":2000
+            "price":20000
         },
         {
 
             "id":8,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test7.png",
+            "title": "넷플릭스 3명구해요",
             "host_id": "loki99",
-            "price":2000
+            "price":11000
         },
         {
 
@@ -100,8 +100,8 @@
         {
 
             "id":6,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test14.jpg",
+            "title": "[1+1] 투캣츠 티셔츠",
             "host_id": "loki99",
             "price":2000
         },
@@ -116,16 +116,16 @@
         {
 
             "id":4,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test15.jpg",
+            "title": "데일리 바디로션 450ml",
             "host_id": "loki99",
             "price":2000
         },
         {
 
             "id":24,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test16.jpg",
+            "title": "드라이시트 건조기용 120매!!",
             "host_id": "loki99",
             "price":2000
         },
@@ -135,7 +135,7 @@
             "image_path":"img/test.png",
             "title": "공구급구!!",
             "host_id": "loki99",
-            "price":2000
+            "price":60000
         },
         {
 
@@ -148,23 +148,15 @@
         {
 
             "id":78,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
+            "image_path":"/img/test17.jpg",
+            "title": "대용량 까다로운 냥이를 위한 뉴트리플랜 습식캔 6종 ",
             "host_id": "loki99",
-            "price":2000
+            "price":25000
 
         },
         {
 
             "id":45,
-            "image_path":"img/test.png",
-            "title": "공구급구!!",
-            "host_id": "loki99",
-            "price":2000
-        },
-        {
-
-            "id":12,
             "image_path":"img/test.png",
             "title": "공구급구!!",
             "host_id": "loki99",

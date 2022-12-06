@@ -1,14 +1,14 @@
 import React, { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import Ad from "./advertisement"; 
-function Items({id,title,price,imgpath}){
+export default function Premium({id,title,price,imgpath}){
+    console.log(id)
     return(
     <div className="itemcontainer">
         <Link to ={`/buyposter/${id}`}>
         <img src={imgpath} alt="items"></img>
-        <div classNmae="item_title">{title}</div>
-        <div classNmae="item_price">{price}원</div>
+        <div className="item_title">{title} </div>
+        <div className="premium"><div classNmae="item_price">{price}원</div>
+        </div>
         </Link>
     </div>)
 }
-export default Items;

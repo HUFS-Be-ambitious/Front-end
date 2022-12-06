@@ -1,32 +1,40 @@
 import React, { useState,useEffect } from 'react'
 import Navigation from "../components/navigation";
 import Ad from "../components/advertisement";
-import Items from '../components/items';
-import './style.css';
+import DeliveryItems from '../components/deliveryitems';
+import { Link } from 'react-router-dom';
 function Delivery(){    
     const [buylist, setBuyList] =useState([]);
     const getbuylist= async()=>{
         const json = await(
             await fetch(
-                "http://localhost:3000/data/post.json"
+                "http://43.200.162.100/deliverypost/list"
             
         )).json();
-        setBuyList(json.item);
+        setBuyList(json.content);
     };
     useEffect(()=>{
         getbuylist();
     },[]);
     return(
       <div>
-            <Navigation>
-            </Navigation>
+        <Navigation></Navigation>
+
             <Ad/>
-            <div className="buytitle"><div className="buyword">당신을 위한 배달음식</div></div>
+            <div className="buytitle">
+                <div className="buyword">당신을 위한 배달음식</div>
+                <div className="postbutton"><div>글쓰러가기</div> <Link Link to ="/deliverypost"><img src='\img\right.png'></img></Link></div>
+                </div>
+            <div className="buytitle">
+                <div className='category' ><ul><li>한식</li><li>양식</li><li>중식</li><li>일식</li></ul>
+                </div>
+                </div>
             <div className="listcontainer">
                 {
                     buylist.map((list) => {
                         return(
-                            <Items key={list.id}
+                            <DeliveryItems key={list.id}
+                            id={list.id}
                             title={list.title}
                             price={list.price}
                             imgpath={list.image_path}
@@ -35,6 +43,11 @@ function Delivery(){
                     })
                 }
             </div>
+            <div className="buy_bottom">
+                <div className="buyword">먹고싶은게 없으신가요?</div>
+                <div className="postbutton"><div>글쓰러가기</div> <img src='\img\right.png'></img></div>
+                </div>
+            
             
         </div>
     )

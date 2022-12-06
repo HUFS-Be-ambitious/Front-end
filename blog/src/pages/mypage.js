@@ -4,8 +4,7 @@ import Ad from "../components/advertisement";
 function mypage(){
     return(
         <div>
-            <Navigation>
-            </Navigation>
+            <Navigation></Navigation>
             내정보
         </div>
     )

@@ -1,0 +1,37 @@
+{
+    "item": 
+    [
+        {
+            "id":1,
+            "image_path": "/img/test7.png",
+             "title": "넷플릭스 같이 결제하실분 4명 구해요", 
+             "host_id":" ckdanr98",
+             "price":11000
+        },
+
+        { 
+            "id":2,
+            "image_path":"/img/test8.jpg",
+            "title": "돼지고기 뒷다리살 같이 구매하실분 찾습니다",
+            "host_id": "ccl678910",
+            "price":16600
+        },
+          
+        {
+
+         "id":3,
+         "image_path":"/img/test9.jpg",
+         "title": "남성 100데니아 기모본딩 기본팬츠 3종세트",
+         "host_id": "loki99",
+         "price":35900
+        },
+        {
+
+            "id":4453,
+            "image_path":"/img/test10.jpg",
+            "title": "따뜻한 심플 기모 밴드 바지",
+            "host_id": "loki99",
+            "price":24900
+        }
+    ]
+}
